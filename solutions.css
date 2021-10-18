@@ -19,3 +19,38 @@
     color: transparent;
 }
 
+.ex-5-square:hover{
+    transition: 3s;
+    height: 100%;
+}
+
+.ex-5-square:active{
+    transition: 3s;
+    height: 30%;
+}
+
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+
+.ex-7-img:hover{
+    transition: 3s; 
+    filter: grayscale(3);
+}
+
+.ex-8-square:hover{
+    border-radius: 10px;
+    transition: 1s;
+    filter: grayscale(1);
+}
+
+.ex-9-square:hover{
+    filter: grayscale(3);
+    border-radius: 10px;
+    transition: 3s;
+}
+
+.ex-10-square:hover{
+    border-radius: 50%;
+    transition: 3s;
+}
